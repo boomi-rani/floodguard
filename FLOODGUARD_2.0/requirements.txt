@@ -1,0 +1,9 @@
+streamlit>=1.35
+streamlit-folium>=0.20
+folium>=0.16
+networkx>=3.2
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+# OSMnx is NOT needed to run the app: the OpenStreetMap road network is already saved in data/.
+# Install it only if you want to download a fresh network yourself:  pip install osmnx

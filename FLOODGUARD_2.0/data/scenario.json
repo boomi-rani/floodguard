@@ -1,0 +1,83 @@
+{
+  "note": "SIMULATED prototype scenario from notebook Module 3 (nodes chosen along the Dijkstra route). Not real population, shelter or vehicle data.",
+  "default_start": {
+    "name": "Start (notebook)",
+    "node": 12497489526,
+    "lat": 12.9748014,
+    "lon": 80.2207545
+  },
+  "default_destination": {
+    "name": "Destination (notebook)",
+    "node": 11050648635,
+    "lat": 12.9900369,
+    "lon": 80.2138657
+  },
+  "affected_areas": [
+    {
+      "name": "Area A",
+      "people": 40,
+      "node": 12497489526,
+      "lat": 12.9748014,
+      "lon": 80.2207545
+    },
+    {
+      "name": "Area B",
+      "people": 35,
+      "node": 338282602,
+      "lat": 12.972368,
+      "lon": 80.2195902
+    },
+    {
+      "name": "Area C",
+      "people": 25,
+      "node": 12483820630,
+      "lat": 12.969783,
+      "lon": 80.2186821
+    }
+  ],
+  "shelters": [
+    {
+      "name": "Shelter 1",
+      "capacity": 45,
+      "node": 299879177,
+      "lat": 12.9717386,
+      "lon": 80.219175
+    },
+    {
+      "name": "Shelter 2",
+      "capacity": 35,
+      "node": 10120160596,
+      "lat": 12.977206,
+      "lon": 80.2194883
+    },
+    {
+      "name": "Shelter 3",
+      "capacity": 40,
+      "node": 11050648635,
+      "lat": 12.9900369,
+      "lon": 80.2138657
+    }
+  ],
+  "vehicles": [
+    {
+      "name": "Vehicle 1",
+      "capacity": 20
+    },
+    {
+      "name": "Vehicle 2",
+      "capacity": 20
+    },
+    {
+      "name": "Vehicle 3",
+      "capacity": 20
+    },
+    {
+      "name": "Vehicle 4",
+      "capacity": 20
+    },
+    {
+      "name": "Vehicle 5",
+      "capacity": 20
+    }
+  ]
+}

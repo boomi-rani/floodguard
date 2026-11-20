@@ -1,0 +1,26 @@
+{
+  "project": "FLOODGUARD - Velachery, Chennai",
+  "real_data": {
+    "source": "OpenStreetMap via OSMnx 2.1.2 (graph_from_point)",
+    "centre_lat_lon": [
+      12.9815,
+      80.218
+    ],
+    "radius_m": 2500,
+    "network_type": "drive",
+    "nodes": 4471,
+    "edges": 11452,
+    "note": "Road topology, geometry, names and lengths are real OSM data."
+  },
+  "simulated_data": {
+    "flood_depth": "np.random.seed(42); np.random.randint(0, 81, size=len(edges)) in cm, one random value per directed edge",
+    "note": "NOT real flood measurements. Depths are random prototype values.",
+    "affected_areas_shelters_vehicles": "Simulated prototype values (see scenario.json)"
+  },
+  "default_thresholds_cm": {
+    "moderate": 30,
+    "blocked": 70
+  },
+  "moderate_cost_multiplier": 3,
+  "recovered_from": "Saved Folium map output of notebook cell 6 (all 11,452 edges with u, v, key, geometry, length, flood_depth)"
+}
